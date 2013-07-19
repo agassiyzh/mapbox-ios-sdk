@@ -35,6 +35,7 @@
 #import "RMTileImage.h"
 #import "RMProjection.h"
 #import "RMFractalTileProjection.h"
+#import "RMMapView.h"
 
 #import "FMDatabase.h"
 #import "FMDatabaseQueue.h"
@@ -118,7 +119,9 @@
         NSData *data = [results dataForColumn:@"tile_data"];
 
         if ( ! data)
-            image = [RMTileImage errorTile];
+//            image = [RMTileImage errorTile];
+          image = [RMMapView resourceImageNamed:@"error.png"];
+
         else
             image = [UIImage imageWithData:data];
 
