@@ -312,6 +312,7 @@
 		DDE357F316522661001DB842 /* RMPolylineAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMPolylineAnnotation.m; sourceTree = "<group>"; };
 		DDE357F616522CD8001DB842 /* RMPolygonAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMPolygonAnnotation.h; sourceTree = "<group>"; };
 		DDE357F716522CD8001DB842 /* RMPolygonAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMPolygonAnnotation.m; sourceTree = "<group>"; };
+		F8A3388F1798D8650045C045 /* error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = error.png; path = Map/Resources/error.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -597,6 +598,7 @@
 		DD932BC1165C287600D69D49 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F8A3388F1798D8650045C045 /* error.png */,
 				DD932BA5165C287000D69D49 /* mapbox.png */,
 				DD932BA6165C287000D69D49 /* mapbox@2x.png */,
 				DD932BA9165C287000D69D49 /* HeadingAngleSmall.png */,
